@@ -1,0 +1,156 @@
+{
+  "completed_in": 0.01,
+  "max_id": 311582964368678913,
+  "max_id_str": "311582964368678913",
+  "next_page": "?page=2&max_id=311582964368678913&q=rmaug&rpp=3&include_entities=1&result_type=recent",
+  "page": 1,
+  "query": "rmaug",
+  "refresh_url": "?since_id=311582964368678913&q=rmaug&result_type=recent&include_entities=1",
+  "results": [
+    {
+      "created_at": "Tue, 12 Mar 2013 21:02:22 +0000",
+      "entities": {
+        "hashtags": [],
+        "urls": [
+          {
+            "url": "http://t.co/Ankeev4TDC",
+            "expanded_url": "http://bit.ly/13Uf6uD",
+            "display_url": "bit.ly/13Uf6uD",
+            "indices": [
+              118,
+              140
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "hfug",
+            "name": "Hawaii Flash ",
+            "id": 24337644,
+            "id_str": "24337644",
+            "indices": [
+              3,
+              8
+            ]
+          },
+          {
+            "screen_name": "rmaug",
+            "name": "RM Adobe Users Group",
+            "id": 14715721,
+            "id_str": "14715721",
+            "indices": [
+              29,
+              35
+            ]
+          }
+        ]
+      },
+      "from_user": "JosephLabrecque",
+      "from_user_id": 17928329,
+      "from_user_id_str": "17928329",
+      "from_user_name": "Joseph Labrecque",
+      "geo": null,
+      "id": 311582964368678913,
+      "id_str": "311582964368678913",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/3090390290/8410fd5794741fdf6321bb02ca4cb70d_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/3090390290/8410fd5794741fdf6321bb02ca4cb70d_normal.jpeg",
+      "source": "&lt;a href=&quot;http://getfalcon.pro&quot;&gt;Falcon Pro&lt;/a&gt;",
+      "text": "RT @hfug: joint meeting with @RMAUG I am so stoked they are sharking their meeting tonight with us! learn more here  -http://t.co/Ankeev4TDC"
+    },
+    {
+      "created_at": "Tue, 12 Mar 2013 21:01:40 +0000",
+      "entities": {
+        "hashtags": [],
+        "urls": [
+          {
+            "url": "http://t.co/JU3FPvmIvA",
+            "expanded_url": "http://bit.ly/13Uf6uD",
+            "display_url": "bit.ly/13Uf6uD",
+            "indices": [
+              108,
+              130
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "rmaug",
+            "name": "RM Adobe Users Group",
+            "id": 14715721,
+            "id_str": "14715721",
+            "indices": [
+              19,
+              25
+            ]
+          }
+        ]
+      },
+      "from_user": "johnny_barrett",
+      "from_user_id": 202037425,
+      "from_user_id_str": "202037425",
+      "from_user_name": "John Barrett",
+      "geo": null,
+      "id": 311582787637493764,
+      "id_str": "311582787637493764",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2897421581/7a332f9ee447b544cfda55af5e8e3c7a_normal.jpeg",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2897421581/7a332f9ee447b544cfda55af5e8e3c7a_normal.jpeg",
+      "source": "&lt;a href=&quot;http://tapbots.com/software/tweetbot/mac&quot;&gt;Tweetbot for Mac&lt;/a&gt;",
+      "text": "joint meeting with @RMAUG I am so stoked they are sharking their meeting tonight with us! learn more here  -http://t.co/JU3FPvmIvA"
+    },
+    {
+      "created_at": "Tue, 12 Mar 2013 21:01:29 +0000",
+      "entities": {
+        "hashtags": [],
+        "urls": [
+          {
+            "url": "http://t.co/SJgtIpEy6V",
+            "expanded_url": "http://bit.ly/13Uf6uD",
+            "display_url": "bit.ly/13Uf6uD",
+            "indices": [
+              108,
+              130
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "rmaug",
+            "name": "RM Adobe Users Group",
+            "id": 14715721,
+            "id_str": "14715721",
+            "indices": [
+              19,
+              25
+            ]
+          }
+        ]
+      },
+      "from_user": "flashcamphawaii",
+      "from_user_id": 287040669,
+      "from_user_id_str": "287040669",
+      "from_user_name": "Flash Camp Hawaii",
+      "geo": null,
+      "id": 311582743106576386,
+      "id_str": "311582743106576386",
+      "iso_language_code": "en",
+      "metadata": {
+        "result_type": "recent"
+      },
+      "profile_image_url": "http://a0.twimg.com/profile_images/2982808558/ce0109b7212b7fbf64484ed73c241bce_normal.png",
+      "profile_image_url_https": "https://si0.twimg.com/profile_images/2982808558/ce0109b7212b7fbf64484ed73c241bce_normal.png",
+      "source": "&lt;a href=&quot;http://tapbots.com/software/tweetbot/mac&quot;&gt;Tweetbot for Mac&lt;/a&gt;",
+      "text": "joint meeting with @RMAUG I am so stoked they are sharking their meeting tonight with us! learn more here  -http://t.co/SJgtIpEy6V"
+    }
+  ],
+  "results_per_page": 3,
+  "since_id": 0,
+  "since_id_str": "0"
+}

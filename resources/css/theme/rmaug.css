@@ -154,6 +154,37 @@ body {
   margin-top: -0.5em;
   margin-bottom: 0.7em;
  }
+ 
+/* Tweet Scroller ******** */ 
+
+.tweetContainer {
+    /*width: 300px;*/
+    height: 28.5em; /* total visible tweets, in this case set to 3 */
+    overflow: hidden; /*keep tweets outside of the container from being seen */
+    font-size: .7em;
+}
+#tw {
+    position: relative;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: .6em;
+}
+.tweetImage {
+    float: left;
+    padding-right: 1em;
+    border-style: none;
+}
+.tweet {
+    height: 6em;
+    padding-top: 0.3em;
+    font-size: 0.9em;
+    border-bottom: 1px solid #333333;
+    text-align: left;
+}
+.tweetBody {
+    margin-left: 0.5em;
+}
 
 /* section#intouch > p.contact > a {
   line-height: 1.2em;
