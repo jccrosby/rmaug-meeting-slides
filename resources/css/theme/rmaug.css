@@ -182,8 +182,12 @@ body {
     border-bottom: 1px solid #333333;
     text-align: left;
 }
-.tweetBody {
-    margin-left: 0.5em;
+div#tw > li.tweet > div.tweetBody {
+    margin-left: 3.5em;
+    line-height: 1.5em;
+    padding-top: .3em;
+    padding-left: 1em;
+    text-indent: -1em;
 }
 
 /* section#intouch > p.contact > a {
