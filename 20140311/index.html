@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>RMAUG</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="../resources/css/reveal.min.css">
+		<link rel="stylesheet" href="../resources/css/theme/rmaug.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="../resources/lib/css/zenburn.css">
+		<script type="text/javascript" src="../resources/js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="../resources/js/HashTagFeed.js"></script>
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="../resources/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+
+		</script>
+
+		<script type="text/javascript">
+			/*var tw = new HashTagFeed();
+			$(function(){
+				console.log('Start twitter feed');
+				tw.start('rmaug', 60000);
+			});*/
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h2>Welcome to RMAUG</h2>
+					<h3>Rocky Mountain Adobe User's Group</h3>
+					<h4>March 11th, 2014</h4>
+					<p>
+						<small><a href="http://rmaug.com">rmaug.com</a> | <a href="http://twitter.com/rmaug">@rmaug</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Advanced Photoshop Selection Techniques</h2>
+					<h3>with Jennifer Smith</h3>
+					<p>
+						Every great work in Photoshop starts with a great selection. Find out how to create perfect selections with even the most complex images.
+					</p>
+					<p>
+						Jennifer is the author of Adobe Creative Cloud for Dummies and five different Photoshop books, including her recent Photoshop CC Digital Classroom.
+					</p>
+				</section>
+
+				<section id="intouch">
+					<h2>Stay In Touch with RMAUG!</h2>
+					<h3>MeetUp</h3>
+						<p class="contact"><a href="http://www.meetup.com/rmausersgroup/">http://www.meetup.com/rmausersgroup/</a></p>
+
+					<h3>Twitter</h3>
+						<p class="contact">@rmaug - <a href="https://twitter.com/rmaug">https://twitter.com/rmaug</a></p>
+
+					<h3>Facebook</h3>
+						<p class="contact"><a href="http://www.facebook.com/rmausersgroup">http://www.facebook.com/rmausersgroup</a></p>
+
+					<h3>RMAUG Website</h3>
+						<p class="contact"><a href="http://rmaug.com/">http://rmaug.com/</a></p>
+				</section>
+
+				<section>
+					<h2>Join our next meeting on April 8th!</h2>
+					<hr>
+					<h3>We will be back at Casselman's</h3>
+					<hr>
+					<h3>Comic book coloring with Illustrator and Photoshop painting</h3>
+					<h4>with Scott Unruh</h4>
+					<p>
+						Take your art and add a comic book style coloring. Scott will share secrets for creating dynamic comic book coloring with Illustrator and Photoshop.
+					</p>
+					<hr>
+					<h3>AIR/NativeProcess API’s & FFMPEG</h3>
+					<h4>with Joseph Labrecque</h4>
+					<p>
+						Stay tuned for details!
+					</p>
+				</section>
+
+
+				<!-- section>
+					<div id="tw"></div>
+				</section -->
+			</div>
+
+		</div>
+
+		<script src="../resources/lib/js/head.min.js"></script>
+		<script src="../resources/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				keyboard: true,
+				history: true,
+				center: true,
+				autoSlide: 10000,
+				loop: true,
+				overview: true,
+
+				theme: 'rmaug',//Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: 'page', //Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: '../resources/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../resources/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../resources/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../resources/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../resources/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../resources/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
